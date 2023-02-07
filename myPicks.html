@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Picks</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <header>
+        <div id="header-title">Super Pool 2023</div>
+        <div id="header">
+            <div id="left-header">
+              <a href="leaderboard.html">Leaderboard</a>
+              <a href="myPicks.html">My Picks</a>
+            </div>
+            <div id="right-header">
+              <a href="signup.html">Sign Up</a>
+              <a href="login.html">Login</a>
+            </div>
+          </div>
+    </header>
+  </head>
+  <body>
+    <h1>My Picks</h1>
+    <form action="submit-picks" method="post">
+      <table>
+        <tr>
+          <th>Bet</th>
+          <th>Selection</th>
+        </tr>
+        <!-- Add rows for each bet -->
+        <tr>
+          <td>Bet 1</td>
+          <td>
+            <input type="radio" name="bet1" value="Option 1">Option 1
+            <input type="radio" name="bet1" value="Option 2">Option 2
+            <!-- Add additional options as needed -->
+          </td>
+        </tr>
+        <!-- Repeat for each bet -->
+      </table>
+      <input type="submit" value="Submit Picks">
+    </form>
+  </body>
+</html>
